@@ -1,5 +1,6 @@
 .container {
     /* transform: translateY(-100%); */
+    margin-top: 100px;
 }
 
 .container p {
@@ -15,6 +16,12 @@
     width: 800px;
     height: 200px;
     border: 4px dashed #4aa1f3;
+    transition: 500ms;
+}
+
+.drop-container:hover{
+    opacity: 0.6;
+    transition: 500ms;
 }
 
 .upload-icon {

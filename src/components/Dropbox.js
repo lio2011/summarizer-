@@ -17,7 +17,7 @@ const Dropbox = ({submit}) => {
     e.preventDefault();
     const files = e.dataTransfer.files;
     console.log(files[0]);
-    submit()
+    submit(files[0])
   };
 
 
@@ -32,7 +32,7 @@ const Dropbox = ({submit}) => {
       >
         <div className="drop-message">
           <div className="upload-icon"></div>
-          Drag & Drop files here or click to upload
+          Drag & Drop files here 
         </div>
       </div>
     </div>
