@@ -1,23 +1,45 @@
-import logo from './logo.svg';
+import {useState, useEffect} from 'react'
 import './App.css';
-
+import axios from 'axios'
 function App() {
+  const [file, setFile] = useState()
+  const [text, setText] = useState("")
+  useEffect(() => {
+    console.log(file)
+  }, [file] )
+
+  const api = "http://e7b4-43-241-64-2.ngrok.io/summarise/"
+  
+  const handleSubmit = async() => {
+    console.log("Function entered")
+    var formData = new FormData()
+
+
+    formData.append("input_txt", file)
+    try{
+      const data = await axios.post(api, formData, {
+        headers: {
+          'Content-Type': 'multipart/form-data'
+        }
+      })
+
+      // console.log(data.data.summary_text)
+      setText(data.data.summary_text)
+    } catch (err) {
+      console.log(err)
+    }
+  } 
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+     <input type="file" id="myFile" name="filename" onChange={(e) => setFile(e.target.files[0])}/>
+
+     {/* <input type="file" id="myFile" name="filename" /> */}
+      <input type = "button" value="submit" onClick={() => handleSubmit()}/>
+      <br />
+      <p>
+        {text}
+      </p>
     </div>
   );
 }
