@@ -1,0 +1,30 @@
+.navbar {
+  display: flex;
+  max-width: 1000px;
+  margin: auto;
+  margin-top: 70px;
+  font-family: 'Karla', sans-serif;;
+}
+
+.navbar > img {
+  margin-right: auto;
+  height: 80px;
+}
+.navbar__links {
+  display: flex;
+}
+
+.navbar__links > span {
+    height: 20px;
+    margin: auto;
+    margin-left: 50px;
+    color: #d3d5d9;
+    font-size: 17px;
+    transition: 500ms;
+    cursor: pointer;
+}
+
+.navbar__links > span:hover{
+    color: #585858;
+    transition: 500ms;
+}
