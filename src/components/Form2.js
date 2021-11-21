@@ -7,14 +7,14 @@ import Zoom from "react-reveal/Zoom";
 
 const Form = () => {
   const [file, setFile] = useState();
-  const [text, setText] = useState(``);
+  const [text, setText] = useState();
   const [open, setOpen] = useState(false);
 
   useEffect(() => {
     console.log(file);
   }, [file]);
 
-  const api = "http://6c00-43-241-64-2.ngrok.io/summarise/";
+  const api = "http://6c00-43-241-64-2.ngrok.io/important/";
 
   const handleSubmit = async (file) => {
     console.log("Function entered");
@@ -30,8 +30,15 @@ const Form = () => {
       });
 
       setOpen(false);
-      // console.log(data.data.summary_text)
-      setText(data.data.summary_text);
+      console.log(data.data)
+      let arr = data.data.map(e => {
+          return (<>
+              <li>{e}</li>
+              <br/>
+              </>
+          )
+      })
+      setText(arr);
     } catch (err) {
       console.log(err);
     }

@@ -1,17 +1,18 @@
 import React from "react";
 import "./navbar.css";
 import logo from "../img/logo.svg";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import Zoom from "react-reveal/Zoom";
-const navbar = () => {
+const Navbar = () => {
+    const navigate = useNavigate()
+
   return (
     <div className="navbar">
       <img src={logo} alt="logo" />
       <div className="navbar__links">
         <Zoom>
           <span>Summarizer</span>
-          <span>Bulleter</span>
-
+          <span onClick={() => navigate('/bulleter')}>Bulleter</span>
           <span>Custom</span>
           <span>Team</span>
           <span>About</span>
@@ -21,4 +22,4 @@ const navbar = () => {
   );
 };
 
-export default navbar;
+export default Navbar;

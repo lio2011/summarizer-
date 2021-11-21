@@ -9,18 +9,21 @@ const Form = () => {
   const [file, setFile] = useState();
   const [text, setText] = useState(``);
   const [open, setOpen] = useState(false);
-
+const[key, setKey] = useState('')
   useEffect(() => {
     console.log(file);
   }, [file]);
 
-  const api = "http://6c00-43-241-64-2.ngrok.io/summarise/";
+  const api = "http://5482-43-241-64-2.ngrok.io/custom/";
 
-  const handleSubmit = async (file) => {
+  const handleSubmit = async (file, key) => {
     console.log("Function entered");
     var formData = new FormData();
 
     formData.append("input_txt", file);
+    formData.append("string" , key)
+
+    
     setOpen(true);
     try {
       const data = await axios.post(api, formData, {
@@ -30,8 +33,15 @@ const Form = () => {
       });
 
       setOpen(false);
-      // console.log(data.data.summary_text)
-      setText(data.data.summary_text);
+      console.log(data.data)
+      let arr = data.data.map( (e, i )=> {
+          return (<>
+              <li key={i}>{e}</li>
+              <br/>
+              </>
+          )
+      })
+      setText(arr);
     } catch (err) {
       console.log(err);
     }
@@ -51,13 +61,19 @@ const Form = () => {
           name="filename"
           className="custom-file-input"
           onChange={(e) => {
-            // setFile(e.target.files[0]);
-            handleSubmit(e.target.files[0]);
+            setFile(e.target.files[0]);
+            // handleSubmit(e.target.files[0]);
           }}
         />
       </Zoom>
-
-      {/* <input type="file" id="myFile" name="filename" /> */}
+<br/>
+<br/>
+<br/>
+      <input type="text" className="keyword-input"  name="filename" placeholder="Give space separated keywords" onChange={(e) => setKey(e.target.value) }/>
+      <br/>
+      <div className="send-btn" onClick={() => handleSubmit(file, key)}>
+          Send
+      </div>
       {/* <input type="button" value="submit" onClick={() => handleSubmit(file)} /> */}
       <br />
       
