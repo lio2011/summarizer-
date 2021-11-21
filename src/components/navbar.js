@@ -1,7 +1,7 @@
 import React from "react";
 import "./navbar.css";
 import logo from "../img/logo.svg";
-import { Link, useNavigate } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 import Zoom from "react-reveal/Zoom";
 const Navbar = () => {
     const navigate = useNavigate()
@@ -11,9 +11,9 @@ const Navbar = () => {
       <img src={logo} alt="logo" />
       <div className="navbar__links">
         <Zoom>
-          <span>Summarizer</span>
+          <span onClick={() => navigate('/')}>Summarizer</span>
           <span onClick={() => navigate('/bulleter')}>Bulleter</span>
-          <span>Custom</span>
+          <span onClick={() => navigate('/custom')}>Custom</span>
           <span>Team</span>
           <span>About</span>
         </Zoom>

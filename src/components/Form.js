@@ -6,6 +6,7 @@ import "./Form.css";
 import Zoom from "react-reveal/Zoom";
 
 const Form = () => {
+  // eslint-disable-next-line
   const [file, setFile] = useState();
   const [text, setText] = useState(``);
   const [open, setOpen] = useState(false);
