@@ -14,7 +14,7 @@ const Form = () => {
     console.log(file);
   }, [file]);
 
-  const api = process.env.REACT_APP_SUMMARIZER
+  const api = "http://2d03-117-249-221-147.ngrok.io/summarise/"
 
   const handleSubmit = async (file) => {
     console.log(api)

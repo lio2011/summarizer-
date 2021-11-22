@@ -14,7 +14,7 @@ const[key, setKey] = useState('')
     console.log(file);
   }, [file]);
 
-  const api = process.env.REACT_APP_CUSTOM;
+  const api = "http://2d03-117-249-221-147.ngrok.io/custom/";
 
   const handleSubmit = async (file, key) => {
     console.log("Function entered");
