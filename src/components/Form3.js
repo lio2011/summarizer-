@@ -7,6 +7,7 @@ import Zoom from "react-reveal/Zoom";
 
 const Form = () => {
   const [file, setFile] = useState();
+  const [display, setDisplay] = useState()
   const [text, setText] = useState(``);
   const [open, setOpen] = useState(false);
 const[key, setKey] = useState('')
@@ -65,11 +66,13 @@ const[key, setKey] = useState('')
           className="custom-file-input"
           onChange={(e) => {
             setFile(e.target.files[0]);
+            setDisplay(e.target.files[0].name)
             // handleSubmit(e.target.files[0]);
           }}
         />
       </Zoom>
 <br/>
+      {display}
 <br/>
 <br/>
       <input type="text" className="keyword-input"  name="filename" placeholder="Give space separated keywords" onChange={(e) => setKey(e.target.value) } style={{textAlign:'center', letterSpacing: '2px'}}/>
@@ -79,7 +82,6 @@ const[key, setKey] = useState('')
       </div>
       {/* <input type="button" value="submit" onClick={() => handleSubmit(file)} /> */}
       <br />
-      {/* {file} */}
       <p className="output">
         <h2 style={{textAlign: 'center'}}>Summary</h2>
         <hr />
