@@ -30,7 +30,7 @@ h4 {
   visibility: hidden;
 }
 .custom-file-input::before {
-  content: "Or select some files";
+  content: "Or select a file";
   margin-left: 56px;
   color: black;
   display: inline-block;

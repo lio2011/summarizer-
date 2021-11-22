@@ -1,6 +1,6 @@
 import React from "react";
 import "./Dropbox.css";
-const Dropbox = ({submit}) => {
+const Dropbox = ({submit, bool}) => {
   const dragOver = (e) => {
     e.preventDefault();
   };
@@ -17,7 +17,7 @@ const Dropbox = ({submit}) => {
     e.preventDefault();
     const files = e.dataTransfer.files;
     console.log(files[0]);
-    submit(files[0])
+    submit(files[0].name)
   };
 
 

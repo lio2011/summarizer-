@@ -19,6 +19,7 @@ const Form = () => {
 
   const handleSubmit = async (file) => {
     console.log("Function entered");
+    setFile(file.name);
     var formData = new FormData();
 
     formData.append("input_txt", file);
@@ -69,6 +70,7 @@ const Form = () => {
       {/* <input type="file" id="myFile" name="filename" /> */}
       {/* <input type="button" value="submit" onClick={() => handleSubmit(file)} /> */}
       <br />
+      {file}
       
       <p className="output">
         <h2 style={{textAlign: 'center'}}>Summary</h2>

@@ -10,7 +10,6 @@ const Form = () => {
   const [file, setFile] = useState();
   const [text, setText] = useState(``);
   const [open, setOpen] = useState(false);
-
   useEffect(() => {
     console.log(file);
   }, [file]);
@@ -19,6 +18,8 @@ const Form = () => {
 
   const handleSubmit = async (file) => {
     console.log("Function entered");
+    setFile(file.name);
+
     var formData = new FormData();
 
     formData.append("input_txt", file);
@@ -53,7 +54,6 @@ const Form = () => {
           name="filename"
           className="custom-file-input"
           onChange={(e) => {
-            // setFile(e.target.files[0]);
             handleSubmit(e.target.files[0]);
           }}
         />
@@ -62,7 +62,7 @@ const Form = () => {
       {/* <input type="file" id="myFile" name="filename" /> */}
       {/* <input type="button" value="submit" onClick={() => handleSubmit(file)} /> */}
       <br />
-      
+      {file}
       <p className="output">
         <h2 style={{textAlign: 'center'}}>Summary</h2>
         <hr />

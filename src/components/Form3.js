@@ -18,6 +18,8 @@ const[key, setKey] = useState('')
 
   const handleSubmit = async (file, key) => {
     console.log("Function entered");
+    setFile(file.name);
+
     var formData = new FormData();
 
     formData.append("input_txt", file);
@@ -50,7 +52,7 @@ const[key, setKey] = useState('')
     <div className="form">
       <Zoom>
         <h4>Provide us with the text messages in the form of a file and also give us the keywords and will only show the relevant messages according to keywords provided by you</h4>
-      <DropZone submit={handleSubmit} />
+      <DropZone submit={setFile} bool = {true}/>
       </Zoom>
 
       <br />
@@ -62,7 +64,7 @@ const[key, setKey] = useState('')
           name="filename"
           className="custom-file-input"
           onChange={(e) => {
-            setFile(e.target.files[0]);
+            setFile(e.target.files[0].name);
             // handleSubmit(e.target.files[0]);
           }}
         />
@@ -70,14 +72,14 @@ const[key, setKey] = useState('')
 <br/>
 <br/>
 <br/>
-      <input type="text" className="keyword-input"  name="filename" placeholder="Give space separated keywords" onChange={(e) => setKey(e.target.value) }/>
+      <input type="text" className="keyword-input"  name="filename" placeholder="Give space separated keywords" onChange={(e) => setKey(e.target.value) } style={{textAlign:'center', letterSpacing: '2px'}}/>
       <br/>
-      <div className="send-btn" onClick={() => handleSubmit(file, key)}>
+      <div className="send-btn" onClick={() => handleSubmit(file, key)} style={{textAlign:'center'}}>
           Send
       </div>
       {/* <input type="button" value="submit" onClick={() => handleSubmit(file)} /> */}
       <br />
-      
+      {file}
       <p className="output">
         <h2 style={{textAlign: 'center'}}>Summary</h2>
         <hr />
