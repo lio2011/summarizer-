@@ -14,10 +14,10 @@ const Form = () => {
     console.log(file);
   }, [file]);
 
-  const api = "http://6c00-43-241-64-2.ngrok.io/summarise/";
+  const api = process.env.REACT_APP_SUMMARIZER
 
   const handleSubmit = async (file) => {
-    console.log("Function entered");
+    console.log(api)
     setFile(file.name);
 
     var formData = new FormData();

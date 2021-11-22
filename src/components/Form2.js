@@ -15,7 +15,7 @@ const Form = () => {
     console.log(file);
   }, [file]);
 
-  const api = "http://6c00-43-241-64-2.ngrok.io/important/";
+  const api = process.env.REACT_APP_BULLETER;
 
   const handleSubmit = async (file) => {
     console.log("Function entered");
