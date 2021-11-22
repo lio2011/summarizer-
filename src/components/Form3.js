@@ -14,11 +14,11 @@ const[key, setKey] = useState('')
     console.log(file);
   }, [file]);
 
-  const api = "http://2d03-117-249-221-147.ngrok.io/custom/";
+  const api = "https://2d03-117-249-221-147.ngrok.io/custom/";
 
   const handleSubmit = async (file, key) => {
-    console.log("Function entered");
-    setFile(file.name);
+    console.log(file);
+    // setFile(file.name);
 
     var formData = new FormData();
 
@@ -64,7 +64,7 @@ const[key, setKey] = useState('')
           name="filename"
           className="custom-file-input"
           onChange={(e) => {
-            setFile(e.target.files[0].name);
+            setFile(e.target.files[0]);
             // handleSubmit(e.target.files[0]);
           }}
         />
@@ -79,7 +79,7 @@ const[key, setKey] = useState('')
       </div>
       {/* <input type="button" value="submit" onClick={() => handleSubmit(file)} /> */}
       <br />
-      {file}
+      {/* {file} */}
       <p className="output">
         <h2 style={{textAlign: 'center'}}>Summary</h2>
         <hr />
