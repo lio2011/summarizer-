@@ -45,7 +45,7 @@ const Form = () => {
     }
   };
   return (
-    <div className="App">
+    <div className="form">
       <Zoom>
       <DropZone submit={handleSubmit} />
       </Zoom>
