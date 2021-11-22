@@ -47,6 +47,7 @@ const Form = () => {
   return (
     <div className="form">
       <Zoom>
+        <h4>Provide us with the text messages in the form of a file and we will only show you the important messages according to their relevance</h4>
       <DropZone submit={handleSubmit} />
       </Zoom>
 

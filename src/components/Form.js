@@ -40,6 +40,7 @@ const Form = () => {
   return (
     <div className="form">
       <Zoom>
+      <h4>Provide us with the text messages in the form of a .txt file and we will generate a summary of it.</h4>
       <DropZone submit={handleSubmit} />
       </Zoom>
 

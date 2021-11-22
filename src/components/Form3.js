@@ -49,6 +49,7 @@ const[key, setKey] = useState('')
   return (
     <div className="form">
       <Zoom>
+        <h4>Provide us with the text messages in the form of a file and also give us the keywords and will only show the relevant messages according to keywords provided by you</h4>
       <DropZone submit={handleSubmit} />
       </Zoom>
 
