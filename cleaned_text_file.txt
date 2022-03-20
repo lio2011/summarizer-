@@ -1,104 +1,91 @@
-+91 99893 76385: I suggest to go through the following material ( I collected from Internet) for first experiment (Lab) understanding purpose.
-+91 99893 76385: Suggest to come with proper Idea to implement the same in your comfortable language using either BFS or DFS.
-+91 99893 76385: Similarly refer the "Rich" textbook for "Water Jug Problem". Similar explanation available to understand.
-+91 99893 76385: Try to implement any one of the above problem in this week.
-+91 99893 76385: as per  your lab schedule.
-+91 99893 76385: I hope you are able to view the due dates for each lab Assessment's on vtop.
-Gaurav Poosarla Vit Bbs Batchmate: Yes sir
-+91 99893 76385: 1. COVID-19 related Research Topics: Applying ML/DL technique.
-ansmission Methods: Detect mask wore or not? Properly wore or just available?
-Distance following or not?
-ing (Advanced DL): How to process COVID samples with privacy.
-eas:
- based on image of a class room. It may be any audience scenario.
-ance tracking based on entry and exit instead of Bio-metric punch-in/out.
-e analysis in the above topics.
-+91 99893 76385: Try to explore the ai being used in each sector
-+91 99893 76385: Explore further like how they are benefiting exactly using AI
-Gaurav Poosarla Vit Bbs Batchmate: Sir could you once check the ppt on hill climbing search, some slides are not properly oriented and even after rotating the slide I am not able to read. It would be really helpful if you could change it.
-+91 99893 76385: Choose rotate view option
-Gaurav Poosarla Vit Bbs Batchmate: I tried sir but for some slides it isn't working the content is not bounded in the slide, it moves out.
-+91 99893 76385: View in full screen mode, CTRL+L
-Gaurav Poosarla Vit Bbs Batchmate: Okay sir
-+91 99893 76385: Dear students, I have meeting now. please go through the CAT-1 syllabus and raise if you have any doubts.  Concentrate on all the three modules and also DA topic. This for morning class today
-+91 99893 76385: If anybody submitted pdf format document for lab assessment-1 yesterday, please submit the word document through email immediately. Other platform submission not accepted. nagaraja.g@vit.ac.in
-+91 99893 76385: Just suggestion
-+91 73309 45676: It's AI powered personal assistant sir, like cortana for windows and siri for apple
-Divyesh Tripathi Prob And Stats: Maybe for Voice Commands.
-Siddharth Vit Bbs Batchmate: Assistant for helping in driving...
-+91 99893 76385: Anything more than personal assistant?
-Siddharth Vit Bbs Batchmate: Like...lane changing... speeding....any warning..
-+91 93483 43310: A/C temp control
-+91 99893 76385: If only PA, then it's already there. False advertising
-+91 76829 26742: Sir here ai means to assit drivers to keep the car in lane and maintain a safe distance from a car in front and cruise control etc
-Saliq Iet Vit: Also hyper advanced ai based safety assistance
-Divyesh Tripathi Prob And Stats: driver-assist functions like Adaptive Cruise Control, Forward Collision Warning, Automatic Emergency Braking, etc...
-Siddharth Vit Bbs Batchmate: Ooo....they may say we didn't mention that AI means artificial intelligence🤣🤣🤣
-+91 99893 76385: Need to explore how AI helps for these tasks
-+91 99893 76385: Can you demonstrate/ explain, how can AI helps in these tasks in the upcoming class. @919565556292
-+91 99893 76385: Not urgent. After your preparation only
-Divyesh Tripathi Prob And Stats: By using camera and sensors at the front of the car.
-+91 99893 76385: If you fix camera and sensors, sufficient? They work themselves?
-+91 99893 76385: I don't want answer like question one answer in CAT1. I want practical scenario
-Divyesh Tripathi Prob And Stats: They definitely will require proper programming for this..
-Divyesh Tripathi Prob And Stats: Ok sir I'll try
-Divyesh Tripathi Prob And Stats: 👍🏻
-+91 99893 76385: 🙏
-+91 99893 76385: Thanks bro, but again CAT1 QUESTION ANSWER. I want in what way AI helps practically.
-+91 99893 76385: Please take one task and demonstrate through example @918658322524
-+91 99893 76385: Please come forward once you learned
-+91 86583 22524: Sure sir !!
-Prathik Vit Bbs Batchmate: In the above mentioned car, The AI part of it is only implemented for the personal assistant feature not for the advanced driver assists system (ADAS). ADAS uses various chips called Systems on a chip(SOC), which connects the sensors embedded in the chassis of the car to actuators through interfaces and directly linked to the Electronic Control Unit(ECU). As it is mentioned in the pdf sent above, the ADAS is at autonomous driving level 2. AI only gets implemented in autonomous driving from level 3 onwards till level 5. 
-nt system that does use AI, uses Natural Language Processing and Natural Language Understanding, it would give replies mimicing a normal human. It can also have control of the interior features of the car for example, opening the sunroof, or switching the radio station or making a call.
-Aryaman Jr Research ACM: Thank you for sharing
-Aniket Vit Bbs Batchmate: Sir aren't you going to take the class today?
-+91 99893 76385: Sorry. I thought it's at 3pm. Will compensate today's class later.
-+91 99893 76385: Morning batch, I  will join soon
-+91 99893 76385: for Q3, why D is not considered?
-+91 99893 76385: or why only B and G considered? Please correct if I am wrong.
-+91 99893 76385: I request others also verify this.
-Aniket Vit Bbs Batchmate: sir actually clicked the photos and later i realized that D is missing
-Aniket Vit Bbs Batchmate: I changed the value on sheet
-+91 99893 76385: its ok. just I want to get clarity only.
-Aniket Vit Bbs Batchmate: Yes sir thank you
-Aniket Vit Bbs Batchmate: Is the rest fine sir?
-+91 99893 76385: others also please make this to utilize for this type of discussion so that all benefit.
-+91 99893 76385: can anybody solved SEND+MORE=MONEY using CSP? using FC? using AC-3?
-Aniket Vit Bbs Batchmate: Sir i will try and send
-+91 93501 65343 changed the group description
-+91 99893 76385: in Q2, H value please?
-Aniket Vit Bbs Batchmate: Red
-Aniket Vit Bbs Batchmate: I missed it by mistake
-+91 99893 76385: Then all are fine.
-Aniket Vit Bbs Batchmate: ok sir
-Manas Vit Bbs Batchmate: Sir, Vtop is giving error while uploading docx file. Can we upload pdf instead?
-Aryaman Jr Research ACM: Yes sir, same here
-+91 99893 76385: Fine
-+91 99893 76385: Upload pdf. Send word on email
-+91 99893 76385: Upload pdf and send word on email
-+91 98501 84924: Sir if we're able to upload the word doc on vtop there is no need to mail it you as well right?
-+91 99893 76385: Yes you are correct
-+91 99893 76385: There should be five nodes cancelled. Please check this once Again
-+91 70319 56789: Child node 7 will also be cancelled
-Aniket Vit Bbs Batchmate: i think 9 will be cancelled
-Aniket Vit Bbs Batchmate: i am rewriting the solution clearly
-Aniket Vit Bbs Batchmate: This is the final sir can you check now
-+91 99893 76385: Answer is in ppt
-Aniket Vit Bbs Batchmate: It matches sir
-Aniket Vit Bbs Batchmate: This form is with regards to gathering the real time dataset for the lab assessment 4 (sentiment analysis). After getting enough responses I will share the dataset with everyone and it can be used as realtime dataset. Everyone is requested to fill the form seriously as this for the whole class.
- fill the form 2 times with 1 positive review and 1 negative
-Aniket Vit Bbs Batchmate: Everyone can use this as the class data set
-Aniket Vit Bbs Batchmate: and use a standard dataset as per sir's instructions
-Aniket Vit Bbs Batchmate: for real time
-Gaurav Poosarla Vit Bbs Batchmate: We have to use this one for real time right?
-Aniket Vit Bbs Batchmate: no, as class dataset
-Gaurav Poosarla Vit Bbs Batchmate: See w have to do two parts
-Aniket Vit Bbs Batchmate: for real time do as per sir's instructions
-Gaurav Poosarla Vit Bbs Batchmate: No this itself is realtime
-Gaurav Poosarla Vit Bbs Batchmate: He gave two options
-Gaurav Poosarla Vit Bbs Batchmate: One is use this one or use twitter data
-Gaurav Poosarla Vit Bbs Batchmate: We have to do the textbook one on paper
-Gaurav Poosarla Vit Bbs Batchmate: And for real time either of the two
-Gaurav Poosarla Vit Bbs Batchmate: @919989376385 sir could you confirm once
-+91 99893 76385: from Today's mint paper
-+91 99893 76385: maybe useful for your research ideas
+Dr Thenmozhi T: Gm..all..
+ar   class today ..9 am session...
++91 95168 77465: okay Ma'am
+ +91 73865 01099: Can anyone send da-2 questions
+ +91 70008 19712: not yet given, have patience😅
+ +91 73865 01099: Ohh okay
+ Dr Thenmozhi T: Only I need to post .let's finish cat 2 ..we have time for submission .
+ +91 73865 01099: Okay ma'am
++91 93985 00784: Pls fill this form in your free time, Its my J component
+ Dr Thenmozhi T: Hi .all ..one of ur friend identified a small topic.. missing...
+have listened to the lectures..
+hem now...for ref
+ Dr Thenmozhi T: Chk to course page dated..12 oct
+ +91 99844 89209: Ok..Thank You Ma'am
+ +91 99844 89209: 👍
+ +91 94052 42307: Thank you ma'am...
+Dr Thenmozhi T: Pl..dont post anything here
+ +91 99304 25528: Did she say anything about class avg
+ +91 99304 25528: ?
+ +91 6350 021 339: Nope
+ +91 99304 25528: Is the highest possible mark 24 again ?
+ +91 6350 021 339: Yes
+ +91 93985 00784: Yes
+ +91 73062 24041: Yeah
+ +91 99304 25528: Ok .. thanks for the info
++91 80778 38976: What is this abt?
++91 73865 01099: Why is it due today?
++91 80778 38976: Wait is today the last date of submission?
++91 80778 38976: Should it be typed?
++91 82353 87342: Handwritten or typed??
++91 89804 53584: Handwritten
++91 88856 88851: Where is this supposed to be submitted?
++91 6350 021 339: Teams
+ +91 94920 31002: Is this a Digital assignment or for class assignment....
+ +91 73865 01099: Class assignment
+ +91 96749 38482: MARKS hai bhai
+ +91 94920 31002: Is there marks for the submission???
+ +91 96749 38482: Ji sir
++91 70204 60605 changed the subject from "Blockchain C1" to "Blockchain Class c1"
+ +91 73865 01099: Do we have quiz tmw?
+ +91 99304 25528: ig its on 19th
+ Ashutosh Chowdhary: Friday
+ +91 73865 01099: Thank you
+Ashutosh Chowdhary: Goodmorning Ma'am. This is Ashutosh Kumar Choudhary (19BCI0159).
+ class assignment because i am currently in a network scarce zone. I informed you the very day. So it's a humble request to kindly consider it. Thank You!
++91 70204 60605: I shraddha manmode(18BCE2123) 
+rry maam for not submitting the documents on given period of time since i was travelling and didnt have the pen and paper with me.
+me i finished my documents but missed the time line by half an hour. So its a humble request to kindly consider it 
++91 99304 25528: Mam I have sent a message to you directly : Adit (18BCI0124)
++91 86182 58043: Good morning mam this is suraj Kumar(19BCE0369) I had called you earlier also that I wasn't well and couldn't attend any class so I humbly request to consider it.
++91 95024 25252: Good morning mam,I am Durgaprasad G of 18BCE0911.I haven't submitted my assessment because of my placement exam.so humble request to consider this request.
++91 88971 56715: Mam I have also sent a message to you in msteams chat: Jayanth(18BCI0129)
++91 95168 77465: Mam I have sent a message to you directly : Shubhankar Gulati (20BCE2942)
++91 94920 31002: Good morning mam,I am Gowtham C of 18BCE0099.I haven't submitted my assessment because of my placement exams, also there is a network issue because of cyclone in my area and I have shared the file in MS Teams .so humble request to consider this request.
++91 85018 43580: Mam, I sent you message directly: Budem Sai Shashank (18BCE0967)
++91 91661 80470: Good morning mam,I am ujjwal saharia 19 bce0487.I wasn't able to submit my assessment .so humble request to consider this request.
+ +91 91790 45326: Mam, I sent you the message directly: Ishaan Dwivedi (18BCE0658)
++91 70204 60605: Did maam assign the work?
+Dr Thenmozhi T: Hi...all... We ll take the quiz.. Next week....na
++91 70204 60605: Ok maam
++91 93985 00784: Ok mam
+Dr Thenmozhi T: Fine.. Ma..
++91 70204 60605: And maam what about the assignment?
+Dr Thenmozhi T: We ll discuss the dates on Friday...
++91 99844 89209: Ok Ma'am
+Dr Thenmozhi T: Shraddha...i ll be looking into the messages that I ve recieved.. Nd create a link with the topic .. Chk tomo na
++91 94052 42307: Ok ma'am
++91 70204 60605: Ok maam
+Dr Thenmozhi T: Good morning all . . 
+oday . . We ll reschedule todays session to tomorrow... Morning by 10 am
++91 70008 19712: ok ma'am take care
++91 99844 89209: Ok Ma'am...Get well soon
++91 95168 77465: Okay ma'am. Get well soon
+Ashutosh Chowdhary: Take care ma'am.
+Dr Thenmozhi T: Thanks ma . We ll meet tomorrow
+Karthik Kothamasu: Take Care mam
++91 94452 01970: Take care ma'am
++91 73062 24041: Take care and get well soon ma’am
+Dr Thenmozhi T: Good morning ...all
+Dr Thenmozhi T: We ll have the class at 10.15 am.. Today ..
++91 94052 42307: Good morning ma'am...
++91 94052 42307: Okay ma'am...
+Dr Thenmozhi T: Thanks ma
+ +91 99844 89209: Ok ma'am
+Ashutosh Chowdhary: @919865230033 Ma'am when will you give assignment for them who could not submit last time?
+ Dr Thenmozhi T: Wednesday..ma
+ Ashutosh Chowdhary: Ma'am you would give some topic only no? One of my friends was telling that you would be taking some short quiz instead of giving assignments  for students who couldn't submit last time.
+ Dr Thenmozhi T: For those who did not have valid reason for.. Not attending tht particular session
+ Ashutosh Chowdhary: Oh alright ma'am. For us who informed the very day it would be assignment only no ma'am?
+ Dr Thenmozhi T: Yea
+ Ashutosh Chowdhary: Ma'am what's the syllabus for Quiz?

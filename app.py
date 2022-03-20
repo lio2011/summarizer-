@@ -10,7 +10,7 @@ app = Flask(__name__)
 cors = CORS(app)
 app.config['CORS_HEADERS'] = 'Content-Type'
 
-upload_path_txt = r"C:\Users\ARKAJIT DATTA\Desktop\machine learning\DSC_hackathon_summariser\txt_file_upload"
+upload_path_txt = r"C:\Users\sshou\Desktop\summariser_api\txt_file_upload"
 
 @app.route("/summarise/",methods = ["POST"])
 @cross_origin()
